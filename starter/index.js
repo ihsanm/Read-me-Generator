@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const util = require('util');
@@ -50,26 +49,7 @@ const questions = () => {
 };
 
 
-// // function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile('README.md', data)
-// }
-
-// // function to initialize program
-// function init() {
-//     return inquirer.prompt(questions)
-
-// }
-
-// // function call to initialize program
-// init()
-// .then(userinput => {
-//     return generateMarkdown(userinput)
-// }).then(readmeInfo => {
-//     return writeToFile(readmeInfo);
-// });
-
 questions()
   .then((data) => writeFileAsync('Readme.md', generateMarkdown(data)))
-  .then(() => console.log('Successfully wrote to index.html'))
+  .then(() => console.log('Successfully wrote to README.md'))
   .catch((err) => console.error(err));
