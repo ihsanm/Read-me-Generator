@@ -2,12 +2,15 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const util = require('util');
+
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = () => {
     return inquirer.prompt([
     {
-        name:"Project-name",
+        name:"Title",
         type: "input",
         message: "What is your projects name?"
     },
@@ -45,16 +48,28 @@ const questions = () => {
 
 ])
 };
+
+
+// // function to write README file
+// function writeToFile(fileName, data) {
+//     fs.writeFile('README.md', data)
+// }
+
+// // function to initialize program
+// function init() {
+//     return inquirer.prompt(questions)
+
+// }
+
+// // function call to initialize program
+// init()
+// .then(userinput => {
+//     return generateMarkdown(userinput)
+// }).then(readmeInfo => {
+//     return writeToFile(readmeInfo);
+// });
+
 questions()
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+  .then((data) => writeFileAsync('Readme.md', generateMarkdown(data)))
+  .then(() => console.log('Successfully wrote to index.html'))
+  .catch((err) => console.error(err));
