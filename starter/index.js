@@ -33,8 +33,14 @@ const questions = () => {
     },
     {
         name:"License",
-        type: "input",
-        message: "what licenses do you use?"
+        type:"checkbox",
+        message: "what licenses do you use?",
+        choices: [
+            { name: 'MIT', value: 'mit' },
+            { name: 'Apache', value: 'apache' },
+            { name: 'Microsoft Public License', value: 'Microsoft Public License' },
+            { name:"n/a", value:"n/a"}
+        ]
     }
 
 ])
