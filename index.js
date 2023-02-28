@@ -2,12 +2,24 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const util = require('util');
+const { type } = require("os");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = () => {
     return inquirer.prompt([
+        
+    {
+        name: "username",
+        type: "input",
+        message: "What is your github username?"
+    },
+    {
+        name:"email",
+        type:"input",
+        message: "What is your email?"
+    },
     {
         name:"Title",
         type: "input",
