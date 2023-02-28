@@ -3,11 +3,11 @@ function generateMarkdown(data) {
   return `# ${data.Title}
 
   ## Table of contents
-  # description (#description)
-  # installation (#intsallation)
-  # usage (#usage)
-  # credits (#credits)
-  # license (#license)
+  description (#description)
+  installation (#intsallation)
+  usage (#usage)
+  credits (#credits)
+  license (#license)
 
   ## description
   ${data.description}

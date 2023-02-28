@@ -1,25 +1,25 @@
-# undefined
+# Read Me Generator
 
   ## Table of contents
-  # description 
-  # installation
-  # usage
-  # credits
-  # license
+  # description (#description)
+  # installation (#intsallation)
+  # usage (#usage)
+  # credits (#credits)
+  # license (#license)
 
   ## description
-  2
+  The purpose of this project is to create a read me generator using inquirer to prompt the user asking various questions once answered the information is passed thrrough and a readme is made
 
-  ##installation
-  3
+  ## installation
+  n/a
 
-  ##usage
+  ## usage
 
-  4
+  creates read mes
 
-  ##credits
-  5
+  ## credits
+  
 
-  ##license
+  ## license
   undefined
 
