@@ -12,30 +12,32 @@ function generateMarkdown(data) {
   * [tests](#tests)
   * [questions](#questions)
 
-  ## description
+  ## Description
   ${data.description}
 
-  ## installation
+  ## Installation
   ${data.installation}
 
-  ## usage
+  ## Usage
 
   ${data.usage}
 
-  ## credits
+  ## Credits
   ${data.credits}
 
-  ## license
+  ## License
   ${data.license}
 
   ## Contributing
   ${data.contributing}
 
-  ## tests
+  ## Tests
   ${data.tests}
 
-  ## questions
-  ${data.questions}
+  ## Questions
+  Do you have any questions about the project?
+  GitHub: https://github.com/${data.username}  
+  Email: ${data.email}
 
 `;
 }

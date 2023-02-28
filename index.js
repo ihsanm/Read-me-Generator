@@ -2,7 +2,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const util = require('util');
-const { type } = require("os");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -47,14 +46,9 @@ const questions = () => {
     },
     {
         name:"License",
-        type:"checkbox",
+        type:"list",
         message: "what licenses do you use?",
-        choices: [
-            { name: 'MIT', value: 'mit' },
-            { name: 'Apache', value: 'apache' },
-            { name: 'Microsoft Public License', value: 'Microsoft Public License' },
-            { name:"n/a", value:"n/a"}
-        ]
+        choices: ['MIT', 'GPL', 'CC--0' ]
     },
     {
         name: "contributing",
