@@ -1,4 +1,4 @@
-# 
+# Read me generator
 
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
@@ -13,14 +13,16 @@
   * [questions](#questions)
 
   ## Description
-  
+  Creates a readme based on responses given from various questions
+
+  <iframe src="https://drive.google.com/file/d/1e4yHSaagjzqGEa4PzFatLQmP6mPMIx-_/preview" width="640" height="480"></iframe>
 
   ## Installation
-  
+  vs code, npm packages are required
 
   ## Usage
 
-  
+  generates read me based on questions asked
 
   ## Credits
   
@@ -36,6 +38,6 @@
 
   ## Questions
   Do you have any questions about the project?
-  GitHub: https://github.com/  
-  Email: 
+  GitHub: https://github.com/ihsanm  
+  Email: mahmood.ihsan98989@gmail.com
 
