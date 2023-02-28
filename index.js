@@ -45,7 +45,7 @@ const questions = () => {
         message: "give credits"
     },
     {
-        name:"License",
+        name:"license",
         type:"list",
         message: "what licenses do you use?",
         choices: ['MIT', 'GPL', 'CC--0' ]

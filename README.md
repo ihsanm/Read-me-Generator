@@ -1,5 +1,7 @@
 # 
 
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
   ## Table of contents
   * [description](#description)
   * [installation](#intsallation)
@@ -10,28 +12,30 @@
   * [tests](#tests)
   * [questions](#questions)
 
-  ## description
+  ## Description
   
 
-  ## installation
+  ## Installation
   
 
-  ## usage
+  ## Usage
 
   
 
-  ## credits
+  ## Credits
   
 
-  ## license
-  undefined
+  ## License
+  This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
 
   ## Contributing
   
 
-  ## tests
+  ## Tests
   undefined
 
-  ## questions
-  undefined
+  ## Questions
+  Do you have any questions about the project?
+  GitHub: https://github.com/  
+  Email: 
 
