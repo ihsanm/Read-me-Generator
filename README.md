@@ -15,7 +15,7 @@
   ## Description
   Creates a readme based on responses given from various questions
 
-  <iframe src="https://drive.google.com/file/d/1e4yHSaagjzqGEa4PzFatLQmP6mPMIx-_/preview" width="640" height="480"></iframe>
+  https://drive.google.com/file/d/1e4yHSaagjzqGEa4PzFatLQmP6mPMIx-_/view
 
   ## Installation
   vs code, npm packages are required
