@@ -43,6 +43,11 @@ const questions = () => {
             { name: 'Microsoft Public License', value: 'Microsoft Public License' },
             { name:"n/a", value:"n/a"}
         ]
+    },
+    {
+        name: "contributing",
+        type: "input",
+        message: ""
     }
 
 ])
